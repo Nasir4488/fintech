@@ -1,9 +1,23 @@
-# Flutter/Dart
-.dart_tool/
+# Flutter
 build/
-*.apk
-*.aab
-*.app.dill
+.dart_tool/
+.pub/
+.pub-cache/
+
+# Android
+android/.gradle/
+android/local.properties
+
+# iOS
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# IDE files
+.vscode/
 .idea/
-.packages
-pubspec.lock
+
+# Environment files
+*.env
+*.key
+*.keystore
