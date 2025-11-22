@@ -1,0 +1,9 @@
+# Flutter/Dart
+.dart_tool/
+build/
+*.apk
+*.aab
+*.app.dill
+.idea/
+.packages
+pubspec.lock
